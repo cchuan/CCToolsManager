@@ -14,6 +14,7 @@
 		4E7D17821FEB8A6A0039CD51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D17801FEB8A6A0039CD51 /* LaunchScreen.storyboard */; };
 		4E7D17851FEB8A6A0039CD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D17841FEB8A6A0039CD51 /* main.m */; };
 		4E7D178E1FEB91770039CD51 /* CCToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D178D1FEB91770039CD51 /* CCToolsManager.m */; };
+		4E7D17911FEBC2470039CD51 /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D17901FEBC2470039CD51 /* TestFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4E7D17841FEB8A6A0039CD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E7D178C1FEB91770039CD51 /* CCToolsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCToolsManager.h; sourceTree = "<group>"; };
 		4E7D178D1FEB91770039CD51 /* CCToolsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCToolsManager.m; sourceTree = "<group>"; };
+		4E7D178F1FEBC2470039CD51 /* TestFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		4E7D17901FEBC2470039CD51 /* TestFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				4E7D178C1FEB91770039CD51 /* CCToolsManager.h */,
 				4E7D178D1FEB91770039CD51 /* CCToolsManager.m */,
+				4E7D178F1FEBC2470039CD51 /* TestFile.h */,
+				4E7D17901FEBC2470039CD51 /* TestFile.m */,
 			);
 			path = CCToolsManager;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			files = (
 				4E7D177A1FEB8A6A0039CD51 /* ViewController.m in Sources */,
 				4E7D178E1FEB91770039CD51 /* CCToolsManager.m in Sources */,
+				4E7D17911FEBC2470039CD51 /* TestFile.m in Sources */,
 				4E7D17851FEB8A6A0039CD51 /* main.m in Sources */,
 				4E7D17771FEB8A6A0039CD51 /* AppDelegate.m in Sources */,
 			);
