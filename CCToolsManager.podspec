@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CCToolsManager"
   s.version      = "1.0.0"
-  s.summary      = "A short description of CCToolsManager."
+  s.summary      = "个人开发工具，集合自己常用的工具类"
 
   s.description  = <<-DESC
       这是一个工具cocoapods，方便在不同项目中使用

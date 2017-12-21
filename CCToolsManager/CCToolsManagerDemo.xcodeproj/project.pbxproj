@@ -13,6 +13,7 @@
 		4E7D177F1FEB8A6A0039CD51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D177E1FEB8A6A0039CD51 /* Assets.xcassets */; };
 		4E7D17821FEB8A6A0039CD51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7D17801FEB8A6A0039CD51 /* LaunchScreen.storyboard */; };
 		4E7D17851FEB8A6A0039CD51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D17841FEB8A6A0039CD51 /* main.m */; };
+		4E7D178E1FEB91770039CD51 /* CCToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D178D1FEB91770039CD51 /* CCToolsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4E7D17811FEB8A6A0039CD51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E7D17831FEB8A6A0039CD51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7D17841FEB8A6A0039CD51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E7D178C1FEB91770039CD51 /* CCToolsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCToolsManager.h; sourceTree = "<group>"; };
+		4E7D178D1FEB91770039CD51 /* CCToolsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCToolsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4E7D17741FEB8A6A0039CD51 /* CCToolsManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4E7D178B1FEB91680039CD51 /* CCToolsManager */,
 				4E7D17751FEB8A6A0039CD51 /* AppDelegate.h */,
 				4E7D17761FEB8A6A0039CD51 /* AppDelegate.m */,
 				4E7D17781FEB8A6A0039CD51 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				4E7D17841FEB8A6A0039CD51 /* main.m */,
 			);
 			path = CCToolsManagerDemo;
+			sourceTree = "<group>";
+		};
+		4E7D178B1FEB91680039CD51 /* CCToolsManager */ = {
+			isa = PBXGroup;
+			children = (
+				4E7D178C1FEB91770039CD51 /* CCToolsManager.h */,
+				4E7D178D1FEB91770039CD51 /* CCToolsManager.m */,
+			);
+			path = CCToolsManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7D177A1FEB8A6A0039CD51 /* ViewController.m in Sources */,
+				4E7D178E1FEB91770039CD51 /* CCToolsManager.m in Sources */,
 				4E7D17851FEB8A6A0039CD51 /* main.m in Sources */,
 				4E7D17771FEB8A6A0039CD51 /* AppDelegate.m in Sources */,
 			);
