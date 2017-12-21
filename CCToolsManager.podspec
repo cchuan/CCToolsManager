@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CCToolsManager"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "个人开发工具，集合自己常用的工具类"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.1"
   s.source       = { :git => "https://github.com/cchuan/CCToolsManager.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "CCToolsManager/CCToolsManagerDemo/CCToolsManager/**/*.{h,m}"
+  s.source_files  = "CCToolsManager/CCToolsManagerDemo/CCToolsManager/*.{h,m}"
   s.requires_arc = true
 
 
